@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scholarship Registration Form</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f4f4f4;
+        }
+        form {
+            width: 50%;
+            margin: 30px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        fieldset {
+            margin-bottom: 15px;
+            padding: 15px;
+        }
+        legend {
+            font-weight: bold;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+        .inline {
+            width: auto;
+        }
+        button {
+            margin-top: 15px;
+            padding: 10px;
+            width: 100%;
+            background: #333;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+<form>
+
+    <!-- Personal Details -->
+    <fieldset>
+        <legend>Personal Information</legend>
+
+        <label>Full Name:</label>
+        <input type="text" required>
+
+        <label>Email:</label>
+        <input type="email" required>
+
+        <label>Phone:</label>
+        <input type="tel">
+
+    </fieldset>
+
+    <!-- Gender (Radio Buttons) -->
+    <fieldset>
+        <legend>Gender</legend>
+
+        <input type="radio" name="gender" class="inline"> Male
+        <input type="radio" name="gender" class="inline"> Female
+        <input type="radio" name="gender" class="inline"> Other
+
+    </fieldset>
+
+    <!-- Course Selection (Dropdown) -->
+    <fieldset>
+        <legend>Course Selection</legend>
+
+        <label>Select Course:</label>
+        <select>
+            <option>--Select--</option>
+            <option>Computer Science</option>
+            <option>Engineering</option>
+            <option>Business</option>
+        </select>
+
+    </fieldset>
+
+    <!-- Interests (Checkboxes) -->
+    <fieldset>
+        <legend>Areas of Interest</legend>
+
+        <input type="checkbox" class="inline"> Web Development<br>
+        <input type="checkbox" class="inline"> Data Science<br>
+        <input type="checkbox" class="inline"> AI & ML<br>
+
+    </fieldset>
+
+    <!-- Submit -->
+    <button type="submit">Register</button>
+
+</form>
+
+</body>
+</html>
