@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Resume</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+        .container {
+            width: 70%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+        }
+        img {
+            width: 120px;
+            border-radius: 50%;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Header with Image -->
+    <header>
+        <img src="https://via.placeholder.com/120" alt="Profile Photo">
+        <h1>Your Name</h1>
+        <p>Email: <a href="mailto:youremail@gmail.com">youremail@gmail.com</a></p>
+        <p>Website: <a href="https://www.google.com" target="_blank">My Portfolio</a></p>
+    </header>
+
+    <!-- Career Objective -->
+    <section>
+        <h2>Career Objective</h2>
+        <p>To build a strong career in web development and enhance my skills.</p>
+    </section>
+
+    <!-- Skills (Unordered List) -->
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+    <!-- Education (Table) -->
+    <section>
+        <h2>Education</h2>
+        <table>
+            <tr>
+                <th>Year</th>
+                <th>Course</th>
+                <th>Institute</th>
+                <th>Percentage</th>
+            </tr>
+            <tr>
+                <td>2023</td>
+                <td>12th</td>
+                <td>XYZ School</td>
+                <td>85%</td>
+            </tr>
+            <tr>
+                <td>2026</td>
+                <td>Bachelor Degree</td>
+                <td>ABC College</td>
+                <td>80%</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Hobbies (Ordered List) -->
+    <section>
+        <h2>Hobbies</h2>
+        <ol>
+            <li>Gaming</li>
+            <li>Traveling</li>
+            <li>Reading</li>
+        </ol>
+    </section>
+
+    <!-- Links -->
+    <section>
+        <h2>Links</h2>
+        <p>
+            <a href="#top">Go to Top</a> |
+            <a href="https://github.com" target="_blank">GitHub</a>
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 My Resume</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
