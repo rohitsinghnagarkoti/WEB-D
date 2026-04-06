@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Table Example</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f4f4f4;
+        }
+        table {
+            width: 80%;
+            margin: 30px auto;
+            border-collapse: collapse;
+            background: #fff;
+        }
+        caption {
+            font-size: 22px;
+            font-weight: bold;
+            margin: 10px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        thead {
+            background-color: #333;
+            color: white;
+        }
+        tfoot {
+            background-color: #ddd;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Timetable -->
+<table>
+    <caption>Weekly Timetable</caption>
+
+    <thead>
+        <tr>
+            <th rowspan="2">Day</th>
+            <th colspan="5">Time Slots</th>
+        </tr>
+        <tr>
+            <th>9-10</th>
+            <th>10-11</th>
+            <th>11-12</th>
+            <th>12-1</th>
+            <th>2-3</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Monday</td>
+            <td>Math</td>
+            <td>Physics</td>
+            <td rowspan="5">Break</td>
+            <td>Chemistry</td>
+            <td>English</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>Biology</td>
+            <td>Math</td>
+            <td>Physics</td>
+            <td>Sports</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td colspan="2">Computer Lab</td>
+            <td>Chemistry</td>
+            <td>English</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td>Math</td>
+            <td>Biology</td>
+            <td colspan="2">Project Work</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td>Physics</td>
+            <td>Chemistry</td>
+            <td>Math</td>
+            <td>Library</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="6">Total Working Days: 5</td>
+        </tr>
+    </tfoot>
+</table>
+
+<!-- Student Record -->
+<table>
+    <caption>Student Record</caption>
+
+    <thead>
+        <tr>
+            <th rowspan="2">Roll No</th>
+            <th rowspan="2">Name</th>
+            <th colspan="3">Marks</th>
+            <th rowspan="2">Total</th>
+        </tr>
+        <tr>
+            <th>Math</th>
+            <th>Science</th>
+            <th>English</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Aman</td>
+            <td>85</td>
+            <td>78</td>
+            <td>90</td>
+            <td>253</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Rahul</td>
+            <td>70</td>
+            <td>88</td>
+            <td>75</td>
+            <td>233</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Sneha</td>
+            <td>92</td>
+            <td>81</td>
+            <td>86</td>
+            <td>259</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="6">Class Average: 248</td>
+        </tr>
+    </tfoot>
+
+</table>
+
+</body>
+</html>
