@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic HTML5 Webpage</title>
+</head>
+<body>
+
+<!-- Marquee -->
+<marquee behavior="scroll" direction="left">
+    Welcome to My Basic HTML5 Webpage
+</marquee>
+
+<!-- Header -->
+<header>
+    <h1>My Website</h1>
+</header>
+
+<!-- Text Formatting -->
+<section>
+    <h2>Text Formatting</h2>
+    <p>This is <b>bold</b>, <i>italic</i>, <u>underlined</u> text.</p>
+    <p>This is <strong>important</strong> and <em>emphasized</em> text.</p>
+</section>
+
+<!-- Lists -->
+<section>
+    <h2>Lists Example</h2>
+
+    <!-- Ordered List -->
+    <h3>Ordered List</h3>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <!-- Unordered List -->
+    <h3>Unordered List</h3>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Mango</li>
+    </ul>
+
+    <!-- Description List -->
+    <h3>Description List</h3>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Structure of webpage</dd>
+
+        <dt>CSS</dt>
+        <dd>Design and styling</dd>
+
+        <dt>JavaScript</dt>
+        <dd>Functionality</dd>
+    </dl>
+</section>
+
+<!-- Hyperlinks -->
+<section>
+    <h2>Links</h2>
+
+    <!-- Internal Link -->
+    <a href="#imageSection">Go to Images Section</a><br><br>
+
+    <!-- External Link -->
+    <a href="https://www.google.com" target="_blank">
+        Visit Google
+    </a><br><br>
+
+    <!-- Email Link -->
+    <a href="mailto:example@gmail.com">
+        Send Email
+    </a>
+</section>
+
+<!-- Images -->
+<section id="imageSection">
+    <h2>Images</h2>
+
+    <img src="https://via.placeholder.com/200" alt="Sample Image"><br><br>
+
+    <img src="https://via.placeholder.com/150" alt="Second Image">
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 My Website</p>
+</footer>
+
+</body>
+</html>
